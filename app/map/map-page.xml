@@ -1,0 +1,28 @@
+<!--
+This is the page that is presented in the 'Map' tab.
+Feel free to customize layouts and components to change how the tab view looks.
+-->
+<Page
+    class="page"
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Map"></Label>
+    </ActionBar>
+    <!-- <GridLayout class="page-content">
+        <Label class="page-icon fa" text="&#xf002;"></Label>
+        <Label class="page-placeholder" text=""></Label>
+    </GridLayout> -->
+    <ScrollView>
+		<StackLayout class="home-panel">
+			<Image src="~/images/map-marker-icon.png" height="60" />
+			<Button text="Get My Location" tap="{{ getLocation }}" class="btn btn-primary" />
+
+			<Label text="{{ 'Latitude: ' + lat }}" class="lbl" />
+			<Label text="{{ 'Longitude: ' + lon }}" class="lbl" />
+			<Label text="{{ 'Speed: ' + speed }}" class="lbl" />
+			<Label text="{{ 'Address: ' + addr }}" class="lbl" textWrap="true" />
+		</StackLayout>
+	</ScrollView>
+</Page>
