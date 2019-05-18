@@ -4,11 +4,11 @@
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
     <ActionBar class="action-bar">
-        <Label class="action-bar-title" text="Browse"></Label>
+        <Label class="action-bar-title" text="Favorites"></Label>
     </ActionBar>
 
     <GridLayout class="page-content">
         <Label class="page-icon fa" text=""></Label>
-        <Label class="page-placeholder" text="<!-- Near Me page content goes here -->"></Label>
+        <Label class="page-placeholder" text="<!-- Favorites page content goes here -->"></Label>
     </GridLayout>
 </Page>

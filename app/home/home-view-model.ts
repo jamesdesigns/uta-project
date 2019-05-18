@@ -9,68 +9,44 @@ export class HomeViewModel extends Observable {
 
         this.items = new Array<Item>(
             {
-                name: "Item 1",
+                name: "Provo",
                 description: "Description for Item 1"
             },
             {
-                name: "Item 2",
+                name: "Orem Central",
                 description: "Description for Item 2"
             },
             {
-                name: "Item 3",
+                name: "American Fork",
                 description: "Description for Item 3"
             },
             {
-                name: "Item 4",
+                name: "Lehi",
                 description: "Description for Item 4"
             },
             {
-                name: "Item 5",
+                name: "Draper",
                 description: "Description for Item 5"
             },
             {
-                name: "Item 6",
+                name: "South Jordan",
                 description: "Description for Item 6"
             },
             {
-                name: "Item 7",
+                name: "Murray",
                 description: "Description for Item 7"
             },
             {
-                name: "Item 8",
+                name: "Salt Lake",
                 description: "Description for Item 8"
             },
             {
-                name: "Item 9",
+                name: "North Temple",
                 description: "Description for Item 9"
             },
             {
-                name: "Item 10",
+                name: "Woods Cross",
                 description: "Description for Item 10"
-            },
-            {
-                name: "Item 11",
-                description: "Description for Item 11"
-            },
-            {
-                name: "Item 12",
-                description: "Description for Item 12"
-            },
-            {
-                name: "Item 13",
-                description: "Description for Item 13"
-            },
-            {
-                name: "Item 14",
-                description: "Description for Item 14"
-            },
-            {
-                name: "Item 15",
-                description: "Description for Item 15"
-            },
-            {
-                name: "Item 16",
-                description: "Description for Item 16"
             }
         );
     }
