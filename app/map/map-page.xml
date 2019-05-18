@@ -17,7 +17,7 @@ Feel free to customize layouts and components to change how the tab view looks.
     <ScrollView>
 		<StackLayout class="home-panel">
 			<Image src="~/images/map-marker-icon.png" height="60" />
-			<Button text="Get My Location" tap="{{ getLocation }}" class="btn btn-primary" />
+			<Button text="Current Location" tap="{{ getLocation }}" class="btn btn-primary" />
 
 			<Label text="{{ 'Latitude: ' + lat }}" class="lbl" />
 			<Label text="{{ 'Longitude: ' + lon }}" class="lbl" />

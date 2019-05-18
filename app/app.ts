@@ -3,7 +3,13 @@ In NativeScript, the app.ts file is the entry point to your application.
 You can use this file to perform app-level initialization, but the primary
 purpose of the file is to pass control to the app’s first module.
 */
+
+
 import * as app from "tns-core-modules/application";
+
+// if(application.ios) {
+//     GMSServices.provideAPIKey("AIzaSyBErqQxBYZtDEDr6IkdfaBkh2a7asZ3Ub4");
+//   }
 
 app.run({ moduleName: "app-root" });
 

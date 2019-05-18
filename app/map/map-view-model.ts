@@ -1,8 +1,8 @@
 import { Observable } from "tns-core-modules/data/observable";
 // NEW
 import * as geolocation from "nativescript-geolocation";
-import { Accuracy } from "ui/enums"; // used to describe at what accuracy the location should be get
-
+// used to describe at what accuracy the location should be get
+// import { Accuracy } from "ui/enums"; 
 export class MapViewModel extends Observable {
     constructor() {
         super();
@@ -14,7 +14,7 @@ export class MapViewModel extends Observable {
     addr = "";
 
     getLocation(args): void {
-        geolocation.getCurrentLocation({ desiredAccuracy: Accuracy.high, maximumAge: 5000, timeout: 20000 })
+        geolocation.getCurrentLocation({ maximumAge: 5000, timeout: 20000 })
             .then(res => {
                 this.set("lat", res.latitude);
                 this.set("lon", res.longitude);
