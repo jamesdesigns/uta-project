@@ -7,7 +7,13 @@ purpose of the file is to pass control to the app’s first module.
 
 import * as app from "tns-core-modules/application";
 
+
+
 // if(application.ios) {
+//     GMSServices.provideAPIKey("AIzaSyBErqQxBYZtDEDr6IkdfaBkh2a7asZ3Ub4");
+//   }
+
+// if(platform.isIOS) {
 //     GMSServices.provideAPIKey("AIzaSyBErqQxBYZtDEDr6IkdfaBkh2a7asZ3Ub4");
 //   }
 

@@ -1,9 +1,9 @@
 // import { NavigatedData, Page } from "tns-core-modules/ui/page";
-// import { BrowseViewModel } from "./browse-view-model";
+// import { NearmeViewModel } from "./nearme-view-model";
 
 // export function onNavigatingTo(args: NavigatedData) {
 //     const page = <Page>args.object;
-//     page.bindingContext = new BrowseViewModel();
+//     page.bindingContext = new NearmeViewModel();
 // }
 
 // // NEW FOR GOOGLE MAP

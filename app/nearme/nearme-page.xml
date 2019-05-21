@@ -21,7 +21,7 @@
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
     <ActionBar class="action-bar">
-        <Label class="action-bar-title" text="Browse"></Label>
+        <Label class="action-bar-title" text="Near Me"></Label>
     </ActionBar>
 
     <GridLayout class="page-content">

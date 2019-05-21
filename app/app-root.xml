@@ -5,22 +5,27 @@ Learn more about the TabView component in this documentation article:
 http://docs.nativescript.org/cookbook/ui/tab-view
 -->
 <TabView androidTabsPosition="bottom">
-    <TabViewItem title="Routes" ios:iconSource="res://tabIcons/train" android:iconSource="res://train">
+<!--   <TabViewItem title="Sign Up" ios:iconSource="res://tabIcons/train" android:iconSource="res://train"> -->
+    <TabViewItem title="Sign Up">
+        <Frame defaultPage="signup/signup-page"></Frame>
+    </TabViewItem>
+
+    <TabViewItem title="Routes">
         <Frame defaultPage="home/home-items-page"></Frame>
     </TabViewItem>
-    <TabViewItem title="Map" ios:iconSource="res://tabIcons/map" android:iconSource="res://map">
+    <TabViewItem title="Map">
         <Frame defaultPage="map/map-page"></Frame>
     </TabViewItem>
 
-    <TabViewItem title="Near Me" ios:iconSource="res://tabIcons/marker" android:iconSource="res://marker">
-        <Frame defaultPage="browse/browse-page"></Frame>
-    </TabViewItem>
+    <!-- <TabViewItem title="Near Me" ios:iconSource="res://tabIcons/marker" android:iconSource="res://marker">
+        <Frame defaultPage="nearme/nearme-page"></Frame>
+    </TabViewItem> -->
 
-    <TabViewItem title="Favorites" ios:iconSource="res://tabIcons/favorites" android:iconSource="res://favorites">
+    <TabViewItem title="Favorites">
         <Frame defaultPage="favorites/favorites-page"></Frame>
     </TabViewItem>
 
-    <TabViewItem title="Settings" ios:iconSource="res://tabIcons/settings" android:iconSource="res://settings">
+    <TabViewItem title="Settings">
         <Frame defaultPage="search/search-page"></Frame>
     </TabViewItem>
 </TabView>
