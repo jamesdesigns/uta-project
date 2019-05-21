@@ -8,6 +8,10 @@ purpose of the file is to pass control to the app’s first module.
 import * as app from "tns-core-modules/application";
 
 
+// NEW FOR SIGNUP
+// const backendService = require("~/services/backend-service");
+// backendService.setup(); // Initialize Kinvey Backend
+
 
 // if(application.ios) {
 //     GMSServices.provideAPIKey("AIzaSyBErqQxBYZtDEDr6IkdfaBkh2a7asZ3Ub4");

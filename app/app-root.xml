@@ -26,6 +26,6 @@ http://docs.nativescript.org/cookbook/ui/tab-view
     </TabViewItem>
 
     <TabViewItem title="Settings">
-        <Frame defaultPage="search/search-page"></Frame>
+        <Frame defaultPage="settings/settings-page"></Frame>
     </TabViewItem>
 </TabView>
