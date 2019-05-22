@@ -24,7 +24,7 @@ Feel free to customize layouts and components to change how the tab view looks.
 			<Label text="{{ 'Speed: ' + speed }}" class="lbl" />
 			<Label text="{{ 'Address: ' + addr }}" class="lbl" textWrap="true" />
 
-            <Button text="f02e; Test" tap="{{ tapAction }}" class="font-awesome" />
+            <!-- <Button text="f02e; Test" tap="{{ tapAction }}" class="font-awesome" /> -->
 		</StackLayout>
 	</ScrollView>
 </Page>

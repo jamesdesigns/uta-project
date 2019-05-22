@@ -1,11 +1,11 @@
 {
   "nativescript": {
     "id": "org.nativescript.project",
-    "tns-android": {
-      "version": "5.4.0"
-    },
     "tns-ios": {
-      "version": "5.4.0"
+      "version": "6.0.0-2019-05-21-180035-01"
+    },
+    "tns-android": {
+      "version": "6.0.0-2019-05-16-172644-03"
     }
   },
   "description": "NativeScript Application",
@@ -18,7 +18,7 @@
     "nativescript-geolocation": "^5.1.0",
     "nativescript-google-maps-sdk": "^2.7.0",
     "nativescript-theme-core": "~1.0.4",
-    "tns-core-modules": "~5.4.0"
+    "tns-core-modules": "^6.0.0-next-2019-05-21-180239-03"
   },
   "devDependencies": {
     "nativescript-dev-sass": "~1.7.0",

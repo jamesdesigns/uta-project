@@ -1,7 +1,7 @@
-const SignupViewModel = require("./signup-view-model");
-const signupViewModel = new SignupViewModel();
+// const SignupViewModel = require("./signup-view-model");
+// const signupViewModel = new SignupViewModel();
 
-exports.pageLoaded = function(args) {
-  const page = args.object;
-  page.bindingContext = signupViewModel;
-}
+// exports.pageLoaded = function(args) {
+//   const page = args.object;
+//   page.bindingContext = signupViewModel;
+// }

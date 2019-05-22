@@ -6,9 +6,9 @@ http://docs.nativescript.org/cookbook/ui/tab-view
 -->
 <TabView androidTabsPosition="bottom">
 <!--   <TabViewItem title="Sign Up" ios:iconSource="res://tabIcons/train" android:iconSource="res://train"> -->
-    <TabViewItem title="Sign Up">
+    <!-- <TabViewItem title="Sign Up">
         <Frame defaultPage="signup/signup-page"></Frame>
-    </TabViewItem>
+    </TabViewItem> -->
 
     <TabViewItem title="Routes">
         <Frame defaultPage="home/home-items-page"></Frame>
@@ -17,9 +17,9 @@ http://docs.nativescript.org/cookbook/ui/tab-view
         <Frame defaultPage="map/map-page"></Frame>
     </TabViewItem>
 
-    <!-- <TabViewItem title="Near Me" ios:iconSource="res://tabIcons/location-arrow" android:iconSource="res://location-arrow">
+    <TabViewItem title="Near Me">
         <Frame defaultPage="nearme/nearme-page"></Frame>
-    </TabViewItem> -->
+    </TabViewItem>
 
     <TabViewItem title="Favorites">
         <Frame defaultPage="favorites/favorites-page"></Frame>

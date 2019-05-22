@@ -1,12 +1,12 @@
-const observableModule = require("tns-core-modules/data/observable");
-const dialogsModule = require("tns-core-modules/ui/dialogs");
+// const observableModule = require("tns-core-modules/data/observable");
+// const dialogsModule = require("tns-core-modules/ui/dialogs");
 
-function SignupViewModel() {
-  const viewModel = observableModule.fromObject({
-    message: "You have successfully authenticated. This is where you build your core application functionality."
-  });
+// function SignupViewModel() {
+//   const viewModel = observableModule.fromObject({
+//     message: "You have successfully authenticated. This is where you build your core application functionality."
+//   });
 
-  return viewModel;
-}
+//   return viewModel;
+// }
 
-module.exports = SignupViewModel;
+// module.exports = SignupViewModel;

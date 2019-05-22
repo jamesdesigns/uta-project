@@ -1,9 +1,9 @@
-const frameModule = require("tns-core-modules/ui/frame");
-const LoginViewModel = require("./login-view-model");
+// const frameModule = require("tns-core-modules/ui/frame");
+// const LoginViewModel = require("./login-view-model");
 
-const loginViewModel = new LoginViewModel();
+// const loginViewModel = new LoginViewModel();
 
-exports.pageLoaded = function (args) {
-    const page = args.object;
-    page.bindingContext = loginViewModel;
-}
+// exports.pageLoaded = function (args) {
+//     const page = args.object;
+//     page.bindingContext = loginViewModel;
+// }
