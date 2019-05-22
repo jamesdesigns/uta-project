@@ -8,11 +8,14 @@ export function onNavigatingTo(args: NavigatedData) {
 
 function reqListener () {
     console.log(this.responseText);
-    console.log("NativeScript Rocks!");
   }
   
-  var oReq = new XMLHttpRequest();
-  oReq.addEventListener("load", reqListener);
-  oReq.open("GET", "http://api.rideuta.com/SIRITEST/SIRI.svc/CloseStopmonitor?latitude=40.696629000&longitude=-112.044376000&route=&numberToReturn=5&usertoken=UTBPQBM0LFQ");
-  oReq.send();
+//   var oReq = new XMLHttpRequest();
+//   oReq.addEventListener("load", reqListener);
+//   oReq.open("GET", "http://api.rideuta.com/SIRITEST/SIRI.svc/CloseStopmonitor?latitude=40.696629000&longitude=-112.044376000&route=&numberToReturn=5&usertoken=UTBPQBM0LFQ");
+//   oReq.send();
 
+var oReq = new XMLHttpRequest();
+oReq.addEventListener("load", reqListener);
+oReq.open("GET", "https://uinames.com/api/?amount=25");
+oReq.send();

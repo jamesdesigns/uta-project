@@ -13,7 +13,7 @@ Feel free to customize layouts and components to change how the tab view looks.
     <!-- <GridLayout class="page-content">
         <Label class="page-icon fa" text="&#xf002;"></Label>
         <Label class="page-placeholder" text=""></Label>
-    </GridLayout> -->
+    </GridLayout>  -->
     <ScrollView>
 		<StackLayout class="home-panel">
 			<Image src="~/images/map-marker-icon.png" height="60" />
@@ -23,6 +23,8 @@ Feel free to customize layouts and components to change how the tab view looks.
 			<Label text="{{ 'Longitude: ' + lon }}" class="lbl" />
 			<Label text="{{ 'Speed: ' + speed }}" class="lbl" />
 			<Label text="{{ 'Address: ' + addr }}" class="lbl" textWrap="true" />
+
+            <Button text="f02e; Test" tap="{{ tapAction }}" class="font-awesome" />
 		</StackLayout>
 	</ScrollView>
 </Page>
