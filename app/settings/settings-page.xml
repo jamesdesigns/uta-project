@@ -11,7 +11,15 @@ Feel free to customize layouts and components to change how the tab view looks.
         <Label class="action-bar-title" text="Settings"></Label>
     </ActionBar>
     <GridLayout class="page-content">
-        <Label class="page-icon fa" text=""></Label>
-        <Label class="page-placeholder" text="<!-- Settings page content goes here -->"></Label>
+        <!-- <Label class="page-icon fa" text=""></Label> -->
+        <!-- <Label class="page-placeholder" text="Settings page content goes here"></Label> -->
+        <ListView class="list-group" itemTap="onItemTap" items="{{ data }}">
+			<ListView.itemTemplate>
+				<GridLayout class="list-group-item" rows="*" columns="auto, *">
+					<!-- <Image row="0" col="0" src="{{ src }}" class="thumb img-circle"></Image> -->
+					<Label row="0" col="1" text="{{ text }}"></Label>
+				</GridLayout>
+			</ListView.itemTemplate>
+		</ListView>
     </GridLayout>
 </Page>
