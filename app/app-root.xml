@@ -4,13 +4,13 @@ tapping on some of the tabs or by swiping between the views.
 Learn more about the TabView component in this documentation article:
 http://docs.nativescript.org/cookbook/ui/tab-view
 -->
-<TabView androidTabsPosition="bottom" class="far">
+<TabView androidTabsPosition="bottom" class="font-awesome">
 <!--   <TabViewItem title="Sign Up" ios:iconSource="res://tabIcons/train" android:iconSource="res://train"> -->
     <!-- <TabViewItem title="Sign Up">
         <Frame defaultPage="signup/signup-page"></Frame>
     </TabViewItem> -->
 
-    <TabViewItem title="Routes" ios:iconSource="res://tabIcons/home" android:iconSource="res://home">
+    <TabViewItem class="iconTab" title="Routes" ios:iconSource="res://tabIcons/home" android:iconSource="res://home">
         <Frame defaultPage="home/home-items-page"></Frame>
     </TabViewItem>
     <TabViewItem title="Map" ios:iconSource="res://tabIcons/map" android:iconSource="res://map">

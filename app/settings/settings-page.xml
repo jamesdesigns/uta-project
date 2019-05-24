@@ -17,7 +17,7 @@ Feel free to customize layouts and components to change how the tab view looks.
 			<ListView.itemTemplate>
 				<GridLayout class="list-group-item" rows="*" columns="auto, *">
 					<!-- <Image row="0" col="0" src="{{ src }}" class="thumb img-circle"></Image> -->
-					<Label row="0" col="1" text="{{ text }}"></Label>
+					<Label horizontalAlignment="center" row="0" col="1" text="{{ text }}"></Label>
 				</GridLayout>
 			</ListView.itemTemplate>
 		</ListView>

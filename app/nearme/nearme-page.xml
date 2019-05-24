@@ -26,7 +26,7 @@
 
     <GridLayout class="page-content">
         <Label class="page-icon fa" text=""></Label>
-        <Label class="page-placeholder" text="Near Me page content goes here"></Label>
+        <Label horizontalAlignment="center" class="page-placeholder" text="Near Me page content goes here"></Label>
     </GridLayout>
 </Page>
 
